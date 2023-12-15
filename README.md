@@ -8,7 +8,6 @@ This is a simple Snake Game implemented using HTML, CSS, and JavaScript. The gam
 - [How to Play](#how-to-play)
 - [Features](#features)
 - [Possible Upgrades](#possible-upgrades)
-- [License](#license)
 
 ## Installation
 
