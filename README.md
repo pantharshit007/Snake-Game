@@ -33,7 +33,7 @@ This is a simple Snake Game implemented using HTML, CSS, and JavaScript. The gam
 - Score tracking to monitor your progress.
 - High Score display to keep track of your best performance.
 
-## Possible Upgrades
+## Possible Upgrades: To Do
 
 1. **Levels and Difficulty:** Implement different levels with increasing difficulty, adjusting the speed of the snake or introducing additional challenges.
 
@@ -53,6 +53,5 @@ This is a simple Snake Game implemented using HTML, CSS, and JavaScript. The gam
 
 Feel free to contribute to these upgrades and make the Snake Game even more entertaining! If you have ideas for additional features, please open an issue to discuss them.
 
-## License
+## धन्यवाद
 
-This Snake Game is licensed under the [MIT License](LICENSE).
