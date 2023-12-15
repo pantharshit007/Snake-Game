@@ -4,6 +4,8 @@ const instructionText = document.getElementById('instructions');
 const logo = document.getElementById('logo');
 const score = document.getElementById('score');
 const highScoreText = document.getElementById('highScore');
+const muteButton = document.getElementById('muteButton');
+const icon = document.querySelector("#muteButton > i")
 
 //Defin Game Variabes:  
 const gridSize = 20;
@@ -16,6 +18,7 @@ let gameInterval;
 let gameSpeedDelay = defaultSpeedDelay = 200;
 let gameStarted = false;
 const munchingAudio = new Audio("./audio/eating-sound.mp3");
+
 
 // Draw snake, food, Game Map
 function draw() {
@@ -240,3 +243,18 @@ function stopGame(){
     gameSpeedDelay = defaultSpeedDelay;
 }
 
+muteButton.addEventListener('click', toggleMute);
+
+function toggleMute(){
+        munchingAudio.muted = !munchingAudio.muted;
+
+    // Change the icon based on the mute state
+    if (munchingAudio.muted) {
+        icon.classList.remove('fa-volume-up');
+        icon.classList.add('fa-volume-mute');
+    } else {
+        munchingAudio.volume = 0.8;
+        icon.classList.remove('fa-volume-mute');
+        icon.classList.add('fa-volume-up');
+    }
+}
