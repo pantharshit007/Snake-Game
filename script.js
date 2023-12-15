@@ -244,9 +244,8 @@ function stopGame(){
 }
 
 muteButton.addEventListener('click', toggleMute);
-
 function toggleMute(){
-        munchingAudio.muted = !munchingAudio.muted;
+    munchingAudio.muted = !munchingAudio.muted;
 
     // Change the icon based on the mute state
     if (munchingAudio.muted) {
