@@ -7,6 +7,7 @@ This is a simple Snake Game implemented using HTML, CSS, and JavaScript. The gam
 - [Installation](#installation)
 - [How to Play](#how-to-play)
 - [Features](#features)
+- [Gameplay](#gameplay)
 - [Possible Upgrades](#Possible-Upgrades-To-Do)
 
 ## Installation
@@ -32,6 +33,19 @@ This is a simple Snake Game implemented using HTML, CSS, and JavaScript. The gam
 - Score tracking to monitor your progress.
 - High Score display to keep track of your best performance.
 
+## Screenshots
+
+Here are some screenshots from the Snake Game:
+
+### Gameplay
+
+![Gameplay](img/GamePlay.png)
+
+### High Score
+
+![High Score](img/highScore.png)
+
+
 ## Possible Upgrades: To Do
 
 1. **Levels and Difficulty:** Implement different levels with increasing difficulty, adjusting the speed of the snake or introducing additional challenges.
@@ -44,7 +58,7 @@ This is a simple Snake Game implemented using HTML, CSS, and JavaScript. The gam
 
 5. **Power-ups and Obstacles:** Introduce power-ups that provide temporary advantages or obstacles that make the game more challenging.
 
-6. **Sound Options:** Allow users to customize or mute game sounds.
+6. **Sound Options:** Allow users to customize or mute game sounds.[DONE ✅]
 
 7. **Game Over Animation:** Enhance the game over experience with animations or a game over screen.
 

@@ -84,6 +84,9 @@ main{
 .snake{
     border: 1px dotted #5a5a5a;
 }
+.snake-head {
+    background-color: rgb(230, 64, 64); 
+}
 .food{
     background-color: #dedede;
     border: 5px solid #999;

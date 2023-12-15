@@ -31,15 +31,20 @@ function draw() {
 
 // Creating Snake
 function drawSnake() {
+    const head = snake[0];
+
     if (gameStarted) {
-        snake.forEach((fragment)=>{
+        snake.forEach((fragment, index)=>{
             // creating div and snake with createGaneElement()
             const snakeElement = createGameElement('div', 'snake');
             setPosition(snakeElement, fragment);
+            if (index === 0) {
+                snakeElement.classList.add('snake-head');
+            }
             // Appending the block on board
             board.appendChild(snakeElement);
         });
-    }
+    }   
 }
 
 // Create Snake or Food [div]
