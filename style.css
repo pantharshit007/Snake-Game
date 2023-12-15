@@ -1,0 +1,99 @@
+body{
+    font-family: 'VT323', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+body, .snake {
+    background-color: #414141;
+}
+
+/* everything comprise inside of main body */
+main{
+    top: 20px
+}
+
+#game-board{
+    border-radius : 100px;
+    display: grid;
+    grid-template-columns: repeat(20,20px);
+    grid-template-rows: repeat(20,20px); 
+    margin: 5px;
+}
+
+.game-border-1{
+    border:10px solid #595f43;
+    border-radius: 30px;
+    box-shadow: inset 0 0 0 10px #595f43;
+    margin-bottom: 40px;
+}
+
+.game-border-2{
+    border:8px solid #abb78a;
+    border-radius: 26px;
+    box-shadow: inset 0 0 0 10px #abb78a;
+}
+
+.game-border-3{
+    border:30px solid #8b966c;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 5px #8b966c;
+}
+
+#instructions{
+    position: absolute;
+    top: 65%;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px;
+    margin:0px;
+    width: 300px;
+}
+
+.scores{
+    display: flex;
+    justify-content: space-between;
+
+}
+#score{
+    color: #abb78a;
+}
+#score, #highScore{
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+#highScore{
+    color: #bbbbbb;
+    display: none;  /* First time their is no H.S */
+}
+
+.game-border-3, #logo{
+    background-color: #c4cfa3;
+}
+
+#logo{
+    position: absolute;
+}
+
+/* JS create */
+.snake{
+    border: 1px dotted #5a5a5a;
+}
+.food{
+    background-color: #dedede;
+    border: 5px solid #999;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    bottom: 15px;
+    font-size: 30px;
+    
+}
